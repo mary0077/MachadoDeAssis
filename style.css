@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/* por tag id, class
+#174b80
+#74ABCFF
+#2E96FF
+#526D87
+#2578CC
+*/
+
+:root{
+   --cor1: #174b80;
+   --cor2: #74ABCF;
+   --cor3: #2E96FF;
+   --cor4: #526D87;
+   --cor5: #2578CC;
+   
+}
+
+body{
+    background-color: var(--cor5);
+    font-family:'roboto', sans-serif;
+
+}
+
+header{
+    /*linear-gradient(direcao, cor1, cor2)*/
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    min-height:100px;
+    text-align: center;/*left, right, justify, center*/
+    padding-top:50px;
+
+}
+ header > p{
+        color:var(--cor1);
+        text-align:center;
+        padding:20px 0; 
+ }
+
+ header > h1{
+         color:var(--cor2);
+         font-weight: 400;
+ }
+ 
+ nav{
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 4px 4px 2px 4px black;
+
+ }
+
+ nav > a{
+       color:white;
+       padding: 10px;
+       text-decoration: none;
+       border-radius: 5px; 
+       transition-duration:0.6;
+       font-weight: 700;
+ }
+ 
+ nav > a:hover{
+       background-color: var(--cor2);
+       color: var(--cor1);
+ }
+
+ main{
+     background-color: white;
+     min-width: 320px;
+     max-width: 1000px;
+     margin: auto;
+     padding: 15px;
+     margin-top:5px;
+     border-radius: 5px;
+     box-shadow: 0px 0px 10px black;
+     text-align:center;
+}
+
+  h2{
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+     color:#174b80;
+    text-align: center;
+     padding: 2px;
+}
+
+article > p{
+     font-size: 18px;
+     text-align: justify;
+     margin: 15px 0;
+     text-indent: 40px;
+
+}
+
+img{
+   width:30%;
+   border:6px solid var(--cor4);
+
+}
+
+pre{
+  font-size: 16px;
+
+}
+
+iframe{
+    margin:15px;
+    border:6px;
+    width:80%;
+
+}
+
+figcaption{
+   font-size: 14px;
+
+}
+
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+aside > ul{
+  list-style-position: inside;
+  text-align: justify;
+
+}
+
+/*aside > li{
+    padding: 4px;
+ } */
+
+aside > h3{
+   background-color:var(--cor1);
+   padding: 10px;
+   margin: -15px -10 0 - 10px;
+   border-radius:10px 10px 0 0;
+   color: var(--cor2);
+
+}
+  
+footer{
+
+
+    
+}
+
+

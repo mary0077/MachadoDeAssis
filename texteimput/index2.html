@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="caixaidade">
+    <button onclick="verificar()">Verificar</button><br><br>
+    <div id="resultado">Resultado</div>
+     <Script>
+       function verificar(){
+      var idade= document.getElementById('caixaidade').value
+      var area= document.getElementById('resultado')
+       }
+       //se a idade >= 18 maior de idade / se não menor de iadade
+
+      if(idade>=18){
+      area.innerHTML='<strong>Maior de Idade</strong>'
+      }
+       else{
+       area.innerHTML='<strong>Menor de Idade>'
+        }
+       var velocidade=110
+
+       if(velociadade>110){
+        alert('Acima da velocidade')
+       }
+ var nota = 9
+
+ if(nota===5){
+            
+ alert('bom')
+   }
+else if(nota<5){
+             
+ alert('Bomba')
+   }
+else{
+alert('Parabéns')
+  }
+
+     </Script>
+Exercícios
+
+1. Utilizando INPUT, Receba o salário do usuário, verifique:
+a) Se o salário <= 1500 o aumento ser ade 40%.
+b) Se o salário >1500 aumento de 30%.
+Ao final mostre o novo salário.
+
+2. Utilizando inputs, receba duas notas de alunos. 
+a) Calcule a média;
+b) se a média>=6, aprovado
+c) Se a média menor que 6, reprovado
+d) Ao final exiba a média e se o aluno foi aprovado ou reprovado.
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios 1</title>
+</head>
+<body>
+   <input type="number" id="salario">
+    <button onclick="calcular()">Verificar</button><br><br>
+    <div id="resultado">Resultado</div>
+    <input type="number" id="n1"> +
+    <input type="number" id="n2"> 
+    <button onclick="soma()">Somar</button><br><br>
+    <div id="resultado">Resultado</div>
+   
+   
+   <script>
+
+   function calcular(){
+          var salario=Number( document.getElementById('salario').value) 
+       
+        var area= document.getElementById('resultado')
+
+        if(usuario<=1500){
+           aumento=0.40
+     }
+     else{
+         aumento=0.30
+     }
+
+     var novoSalario= salario + (salario * aumento)
+     area.innerHTML='<p>'
+
+   }
+
+
+</script>
+</body>
+</html>

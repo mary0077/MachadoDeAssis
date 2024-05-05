@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <input type="number" id="n1"> +
+  <input type="number" id="n2"> 
+  <button onclick="soma()">Somar</button><br><br>
+  <div id="resultado">Resultado</div>
+
+    <script>
+        function somar(){
+            var numero1 = Number(window.document.getElementById('n1').value)
+            var numero2 = Number(document.getElementById('n2').value)
+             
+            var soma= numero1 + numero2 
+
+            var area= document.getElementById('resultado')
+            area.innerHTML=<strong>${soma}</strong>
+        }
+
+
+    </script>
+
+    
+</body>
+</html>
